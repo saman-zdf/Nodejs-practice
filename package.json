@@ -4,13 +4,16 @@
   "description": "we can get readFileSync or writeFileSync by require('os), this will read or write a file synchronously which will block until some task done.",
   "main": "1-Global.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "nodemon app.js",
+    "dev": "nodemon app.js"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "bootstrap": "^5.1.3",
     "lodash": "^4.17.21"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.15"
   }
 }
